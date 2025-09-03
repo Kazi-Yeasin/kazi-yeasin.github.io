@@ -5,21 +5,12 @@ h1 {
     margin: 0%;
     text-align: center;
 }
-div {
-    width: 400px;
-    height: 200px;
-}
+
 p  {
-    text-wrap-style: pretty;
+    width: 600px;
+    height: 150px;
     text-align: justify;
 }
-#div2 {
-    background-image: url(Yeasin.jpg);
-    width: 500px;
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    
-    
+img {
+    float: right;
 }
