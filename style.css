@@ -1,4 +1,15 @@
-div {
+h1 {
     background-color: blanchedalmond;
     border: 5px dashed black;
+    padding: 20px;
+    margin: 0%;
+    text-align: center;
+}
+div {
+    width: 400px;
+    height: 200px;
+}
+p  {
+    text-wrap-style: pretty;
+    text-align: justify;
 }
