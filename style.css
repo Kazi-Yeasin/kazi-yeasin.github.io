@@ -13,3 +13,13 @@ p  {
     text-wrap-style: pretty;
     text-align: justify;
 }
+#div2 {
+    background-image: url(Yeasin.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+    
+}
