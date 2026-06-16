@@ -2,116 +2,164 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KAZI YEASIN ARAFAT</title>
+    <link rel="icon" type="image/png" href="Yeasin.jpg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <h1>Welcome To My Page</h1>
-    <hr>
-    <H1>This is KAZI YEASIN ARAFAT</H1>
-    <img src="Yeasin.jpg" alt="Yeasin's picture" width="300px"><br><br>
-    <div style="font-family: arial;text-align: justify; width: 50%;">
-        <strong><h2>About Me:</h2></strong>
-        <p>I am a <mark><em><b>Computer Science professional and educator</b></em></mark> with a
-            <i>deep-rooted</i> passion for the technical architecture of our digital world. Currently, I balance my time
-            between
-            developing instructional materials for higher mathematics and advancing my own expertise in <u>cybersecurity</u>
-            and
-            network analysis. <br>
-            My technical journey is defined by a hands-on approach to problem-solving, whether I am troubleshooting
-            driver
-            configurations on Linux, implementing complex data structures in C/C++, or designing hardware logic circuits
-            with Verilog.
-            <blockquote><strong>"work untill become successful and millionire"&#128517;</strong></blockquote>
-        </p>
-        <h2>Poetry:</h2>
-        <pre>In the quiet space where logic meets the soul,
-    Between the circuits and the soaring thought,
-A teacher seeks the sum to make it whole,
-    With lessons that the ancient masters taught.</pre>
+<body data-bs-spy="scroll" data-bs-target=".navbar" offset="50">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-info justify-content-center fixed-top mb-5">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="#home">
+            <img src="Yeasin.jpg" alt="Yeasin logo" style="width:40px;" class="rounded-pill">
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#about">About me</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#skills">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#services">Services</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#contact">Contacts</a>
+                </li>
+
+            </ul>
+        </div>
 
     </div>
-    <h2>CONTACT:</h2>
-    <ul><li><a href="https://www.facebook.com/KaziYeasinArafat35/">facebook</a></li>
+</nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="container-fluid text-center bg-dark text-white p-5 mt-5">
+        <img src="Yeasin.jpg" class="rounded-circle" alt="Yeasin" width="304" height="304">
+        <h1>Hello, I'm Your YEASIN</h1>
+        <p>Web Developer & Designer</p>
+        <a href="#contact" class="btn btn-primary">Contact Me</a>
+    </section>
     
-    <li><a href="https://www.instagram.com/kaziyeasinarafat_101/?hl=en">instagram</a></li></ul>
-    <ol><li><a href="https://github.com/Kazi-Yeasin">github</a></li>
-    <li><a href="https://www.linkedin.com/in/kazi-yeasin-arafat-15bb0b381/">linkedin</a></li></ol>
-    <h2>ADDRESS:</h2>
-    <address>Mondoler more, binodpur bazar, motihar, rajshahi</address>
-        <h2>ACADEMIC RESULT:</h2>
-        <caption>results:</caption>
-    <table border="1">
-        <tr>
-            <th>Exam</th>
-            <th>Board</th>
-            <th>Year</th>
-            <th>Cgpa</th>
-            <th>comment</th>
-        </tr>
-        <tr>
-            <td>SSC</td>
-            <td>Rajshahi</td>
-            <td>2021</td>
-            <td>5.00</td>
-            <td rowspan="3">good</td>
-        </tr>
-        <tr>
-            <td>HSC</td>
-            <td>Dhaka</td>
-            <td>2023</td>
-            <td>5.00</td>
-            
-        </tr>
-        <tr>
-            <td>BSC</td>
-            <td>UGC</td>
-            <td>2025</td>
-            <td>3.50</td>
-           
-        </tr>
-    </table>
-    <h2>EXPERIENCES:</h2>
-    <ul>
-        <li>c/c++</li>
-        <li>java</li>
-        <li>python</li>
-        <li>html/css</li>
-    </ul>
-    <h2>PROJECTS:</h2>
-    <ul><li>netflix clone:</li>
-        <a href="https://kazi-yeasin.github.io/netflix/">seemore</a>
-        <li>registration form:</li>
-        <a href="https://kazi-yeasin.github.io/Registation_Form/">seemore</a>
-    </ul>
-    
-    <form action="">
-        <label for="cmnt">comment:</label>
-        <input type="text" id="cmnt">
-        <button>submit</button>
-        <br><br>
-        <label for="passwd">password:</label>
-        <input type="password" id="passwd">
-        <button type="submit">submit</button><br><br>
-        <label for="email">Email:</label>
-        <input type="email">
-        <button type="submit">submit</button><br><br>
+    <!-- About -->
+    <section id="about" class="container-fluid bg-dark text-white p-5" style="background-color: black; opacity: 80%;">
+        <h2 class="text-white text-center">About Me</h2>
+        <p class="text-center container">
+            I am a passionate web developer who loves building websites.I am a Computer Science professional and
+            educator with a deep-rooted passion for the technical architecture of our digital world. Currently, I
+            balance my time between developing instructional materials for higher mathematics and advancing my own
+            expertise in cybersecurity and network analysis.
+        </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container-fluid py-5" style="background-color: black; opacity: 80%;">
+        <h2 class="mb-4 text-white text-center" >Projects</h2>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-text">Project 1</h5>
+                        <p> Netflix Clone</p>
+                        <a href="https://kazi-yeasin.github.io/netflix/" target="_blank" class="card-link">Click Here</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-text">Project 2</h5>
+                        <p>Registration Form</p>
+                        <a href="https://kazi-yeasin.github.io/Registation_Form/" class="card-link" target="_blank">Click Here</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="skills" class="container-fluid p-5" style="background-color: black; opacity: 75%;">
+        <h2 class="text-white text-center">Skills</h2>
+        <div class="progress" style="height: 20px;">
+            <div class="progress-bar progress-bar-striped bg-info progress-bar-animated text-black" style="width: 80%">HTML 80%
+            </div>
+        </div><br>
+        <div class="progress" style="height: 20px">
+            <div class="progress-bar progress-bar-striped progress-bar-animated text-black" style="width: 60%">CSS 60%</div>
+        </div><br>
+        <div class="progress" style="height: 20px">
+            <div class="progress-bar progress-bar-striped bg-success progress-bar-animated text-black" style="width: 80%">C/C++ 70%
+            </div>
+        </div>
+    </div>
+
+    <div id="services" class="container-fluid py-5" style="background-color: black; opacity: 60%;">
+        <h2 class="text-center text-white">Services</h2>
+
+    </div>
+
+    <div id="contact" class="container-fluid p-5" style="background-color: rgb(8, 6, 6); opacity: 90%;">
+        <h2 class="text-white text-center">Contact</h2>
+        <ul class="d-flex p-2 m-3 justify-content-center">
+            <li class="p-2 m-3">
+                <a href="https://www.facebook.com/KaziYeasinArafat35/" target="_blank">facebook</a>
+            </li>
+            <li class="p-2 m-3">
+                <a href="https://www.instagram.com/kaziyeasinarafat_101/?hl=en" target="_blank">instagram</a>
+            </li>
         
-        <input type="checkbox" id="ch">
-        <label for="ch">Yeasin</label>
-        <input type="checkbox" id="ch1">
-        <label for="ch1">Kazi</label>
-        <input type="checkbox" id="ch">
-        <label for="ch">Arafat</label><br><br>
-        <!--<input type="radio">
-        <input type="file">
-        <input type="date">-->
-    </form>
-    <h2>VIDEOS:</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/N-_ZOmgeTTc?si=O6JsplrbrESpLSfj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <h2>AUDIO:</h2>
-    <audio src=""></audio>
-    
+            <li class="p-2 m-3">
+                <a href="https://github.com/Kazi-Yeasin" target="_blank">github</a>
+            </li>
+            <li class="p-2 m-3">
+                <a href="https://www.linkedin.com/in/kazi-yeasin-arafat-15bb0b381/" target="_blank">linkedin</a>
+            </li>
+        </ul>
+        <form action="/action_page.php">
+            <div class="border container-fluid p-3" style="height: 400px; width: 350px;">
+                <label for="yourName" class="form-label text-white py-2">Your Name:</label>
+                <input type="name" class="form-control" id="yourName" placeholder="Enter Your Name" name="name">
+        
+                <label for="email" class="form-label text-white py-2">Email:</label>
+                <input type="email" class="form-control text-white" id="pwd" placeholder="Enter Your Email" name="email">
+
+                <label for="subject" class="form-label text-white py-2">Comments:</label>
+                <textarea type="text" class="form-control" id="subject" name="Comments" placeholder="comments">
+                </textarea>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="container-fluid bg-dark text-white text-center py-3" >@Copyright by Yeasin. All reserved rights.</div>
+
 </body>
 
 </html>
